@@ -9,3 +9,9 @@ Exemplo minimo de backend em C# e Frontend Svelte com autenticação JWT e contr
 ### Rodar com docker.
 
 Basta executar `docker-compose up --build` e após isso estará rodando no `localhost:5173` (se aparecer pagina do nginx basta dar F5 para configurações do ngix carregarem).
+
+### Rodar na sua maquina.
+
+Deve ter postgres rodando na sua maquina com database `exemplo2`, executar os arquivos dentro da pasta `Database`.
+Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar `dotnet install` e `dotnet run`.
+Na pasta Frontend executar `npm i` e `npm run dev`.
