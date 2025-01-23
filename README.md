@@ -69,7 +69,6 @@ dotnet install && dotnet run
 email: transportadoraplatina@gmail.com
 password: 1234
 ```
-
 ---
 
 
