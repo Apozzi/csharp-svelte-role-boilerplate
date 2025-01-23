@@ -1,4 +1,4 @@
-# csharp-svelte-role-boilerplate
+# Csharp-Svelte-Role-Boilerplate
 
 Exemplo minimo de backend em C# e Frontend Svelte com autenticação JWT e controle de papeis de usuário.
 
