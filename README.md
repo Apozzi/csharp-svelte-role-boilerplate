@@ -52,11 +52,11 @@ E após isso estará rodando no `localhost:5173`
 
 ### Rodar na sua maquina.
 
-1. Deve ter postgres rodando na sua maquina com database `exemplo2`, 
+- 1. Deve ter postgres rodando na sua maquina com database `exemplo2`, 
 
-2. Executar os arquivos dentro da pasta `Database`.
+- 2. Executar os arquivos dentro da pasta `Database`.
 
-3. Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar:
+- 3. Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar:
 ```bash 
 dotnet install`
 ```
@@ -65,7 +65,7 @@ dotnet install`
 dotnet run
 ```
 
-4. Na pasta Frontend executar `npm i` e `npm run dev`.
+- 4. Na pasta Frontend executar `npm i` e `npm run dev`.
 
 
 ## Acesso
