@@ -4,6 +4,10 @@ Exemplo minimo de backend em C# e Frontend Svelte com autenticação JWT e contr
 
 ![Capturar](https://github.com/user-attachments/assets/5b51fea4-a586-4f91-9b0b-7056662194d4)
 
+
+![Capturar2](https://github.com/user-attachments/assets/6c4c0aab-c389-4c3a-9dec-7e7551be2639)
+
+
 ## Como rodar?
 
 ### Rodar com docker.
