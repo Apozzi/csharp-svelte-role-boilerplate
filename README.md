@@ -20,8 +20,6 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 
 ![Capturar](https://github.com/user-attachments/assets/5b51fea4-a586-4f91-9b0b-7056662194d4)
 
-![Capturar2](https://github.com/user-attachments/assets/6c4c0aab-c389-4c3a-9dec-7e7551be2639)
-
 ---
 
 ## Estrutura de Arquivos
