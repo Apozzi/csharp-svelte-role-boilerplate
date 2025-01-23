@@ -1,8 +1,6 @@
 # Csharp-Svelte-Role-Boilerplate
 
-Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticação JWT e controle de papeis de usuário.
-
-Utilizado padrões de Clean Archicteture.
+Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticação JWT e controle de papeis de usuário. Utilizado padrões de Clean Archicteture.
 
 ![Capturar](https://github.com/user-attachments/assets/5b51fea4-a586-4f91-9b0b-7056662194d4)
 
