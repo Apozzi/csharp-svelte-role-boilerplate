@@ -1,4 +1,4 @@
-# 🚀 Sistema de Autenticação com .NET 9.0 + Svelte
+# Sistema de Autenticação com .NET 9.0 + Svelte
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com)
 [![Svelte](https://img.shields.io/badge/Svelte-4-FF3E00)](https://svelte.dev)
@@ -24,7 +24,7 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 
 ---
 
-## 📂 Estrutura de Arquivos
+## Estrutura de Arquivos
 ```bash
 ├── BackendAPI/
 │   ├── Application/    # Lógica de negócios
@@ -57,7 +57,7 @@ Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar `dotnet install` 
 Na pasta Frontend executar `npm i` e `npm run dev`.
 
 
-## 🔑 Acesso
+## Acesso
 ```yaml
 email: transportadoraplatina@gmail.com
 password: 1234
