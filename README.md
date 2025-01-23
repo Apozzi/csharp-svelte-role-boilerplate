@@ -58,7 +58,7 @@ E após isso estará rodando no `localhost:5173`
 
 -  Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar:
 ```bash 
-dotnet install`
+dotnet install
 ```
 
 ```bash 
