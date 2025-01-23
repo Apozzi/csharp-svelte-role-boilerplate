@@ -1,0 +1,41 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "5125:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=database;Port=5432;Database=example2;Username=postgres;Password=admin
+    depends_on:
+      database:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "5173:3000"
+
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: example2
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./Database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./Database/inserts.sql:/docker-entrypoint-initdb.d/inserts.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d example2"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  db-data: {}

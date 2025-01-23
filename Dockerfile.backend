@@ -1,0 +1,26 @@
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+COPY ["BackendAPI/BackendAPI.csproj", "BackendAPI/"]
+RUN dotnet restore "BackendAPI/BackendAPI.csproj"
+COPY . .
+WORKDIR "/src/BackendAPI"
+RUN dotnet build "BackendAPI.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "BackendAPI.csproj" -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS migrate
+WORKDIR /src/BackendAPI
+RUN dotnet tool install --global dotnet-ef
+ENV PATH="${PATH}:/root/.dotnet/tools"
+ENV ConnectionStrings__DefaultConnection="Host=database;Port=5432;Database=example2;Username=postgres;Password=admin"
+RUN dotnet ef database update --project BackendAPI.csproj
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "BackendAPI.dll"]
