@@ -34,7 +34,7 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 │   └── WebAPI/         # Controllers
 ├── Frontend/src/
 │   ├── lib/            # Componentes
-│   └── routes/         # Admin/User
+│   └── routes/         # Rotas/Paginas
 └── docker-compose.yml
 ```
 
