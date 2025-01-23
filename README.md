@@ -58,11 +58,7 @@ E após isso estará rodando no `localhost:5173`
 
 -  Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar:
 ```bash 
-dotnet install
-```
-
-```bash 
-dotnet run
+dotnet install && dotnet run
 ```
 
 -  Na pasta Frontend executar `npm i` e `npm run dev`.
