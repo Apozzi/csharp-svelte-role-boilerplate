@@ -24,8 +24,6 @@ Na pasta Frontend executar `npm i` e `npm run dev`.
 
 ### Observação.:
 
-Usuario padrão é:
-
 User: transportadoraplatina@gmail.com
 
 Password: 1234
