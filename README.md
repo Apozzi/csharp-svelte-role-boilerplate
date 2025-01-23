@@ -1,4 +1,4 @@
-# Sistema de Autenticação com .NET 9.0 + Svelte
+# Boilerplate com .NET 9.0 + Svelte
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com)
 [![Svelte](https://img.shields.io/badge/Svelte-4-FF3E00)](https://svelte.dev)
