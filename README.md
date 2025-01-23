@@ -27,13 +27,13 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 
 ## Estrutura de Arquivos
 ```bash
-├── BackendAPI/
+├── BackendAPI/src/
 │   ├── Application/    # Lógica de negócios
 │   ├── Domain/         # Entidades
 │   ├── Infrastructure/ # Database/JWT
 │   └── WebAPI/         # Controllers
-├── Frontend/
-│   ├── src/            # Componentes
+├── Frontend/src/
+│   ├── lib/            # Componentes
 │   └── routes/         # Admin/User
 └── docker-compose.yml
 ```
