@@ -13,7 +13,7 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 
 ---
 
-**Funcionalidades principais:**
+# **Funcionalidades principais:**
 
 | Backend (.NET)          | Frontend (Svelte)         |
 |-------------------------|---------------------------|
