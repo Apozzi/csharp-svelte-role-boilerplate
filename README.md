@@ -46,13 +46,24 @@ Basta executar:
 ```bash
 docker-compose up --build
 ```
-E após isso estará rodando no `localhost:5173` (se aparecer pagina do nginx basta dar F5 para configurações do ngix carregarem).
+E após isso estará rodando no `localhost:5173`
+
+(se aparecer pagina do nginx basta dar F5 para configurações do ngix carregarem).
 
 ### Rodar na sua maquina.
 
-Deve ter postgres rodando na sua maquina com database `exemplo2`, executar os arquivos dentro da pasta `Database`.
+Deve ter postgres rodando na sua maquina com database `exemplo2`, 
 
-Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar `dotnet install` e `dotnet run`.
+executar os arquivos dentro da pasta `Database`.
+
+Com SDK do .NET 9.0 instalado dentro da pasta BackendAPI rodar:
+```bash 
+dotnet install`
+```
+
+```bash 
+dotnet run
+```
 
 Na pasta Frontend executar `npm i` e `npm run dev`.
 
