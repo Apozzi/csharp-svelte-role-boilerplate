@@ -7,6 +7,12 @@
 
 Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticação JWT e controle de papeis de usuário. Utilizado padrões de Clean Archicteture.
 
+---
+
+![Capturar](https://github.com/user-attachments/assets/5b51fea4-a586-4f91-9b0b-7056662194d4)
+
+---
+
 **Funcionalidades principais:**
 
 | Backend (.NET)          | Frontend (Svelte)         |
@@ -16,9 +22,6 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 | ✅ Entity Framework 9  | ✅ SessionStorage        |
 | ✅ Swagger UI          | ✅ Rotas Dinâmicas       |
 
----
-
-![Capturar](https://github.com/user-attachments/assets/5b51fea4-a586-4f91-9b0b-7056662194d4)
 
 ---
 
@@ -34,7 +37,6 @@ Exemplo minimo de Backend em C# com .NET 9.0 e Frontend Svelte com autenticaçã
 │   └── routes/         # Admin/User
 └── docker-compose.yml
 ```
-
 
 ## Como rodar?
 
